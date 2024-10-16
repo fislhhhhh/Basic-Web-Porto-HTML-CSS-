@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    height: auto;
+    padding: 0;
+
+}
+.halamansatu{
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    flex-direction: column;
+    height: auto;
+    margin:0;
+}
+
+
+header {
+    position: sticky;
+    background-color: white;
+    height: 8vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+header h1{
+    padding: 0;
+    margin: 7px;
+    font-size: 20px;
+    color:#023370;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header p {
+    margin: 0;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+
+.utamaa{
+    display: flex;
+    height: 92vh;
+    flex-direction: row;
+    
+}
+
+.utamaa .bannerutama{
+    width: 40%;
+    background-color: #023370;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.utamaa .bannerutama .namautama{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.utamaa .bannerutama .namautama p{
+    margin: 0;
+    padding: 0;
+}
+.utamaa .bannerutama .namautama .coret span{
+    text-decoration: line-through;
+}
+
+.utamaa .bannerutama .namautama .datss {
+    font-size: 200%;
+}
+
+.utamaa .bannerutama  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.utamaa .bannerutama h1 span{
+    font-size: 112px;
+}
+
+
+
+.halamansatu .utamaa .foto {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+}
+.utamaa .foto img{
+   
+    width: 100%;
+    height: auto;
+}
+
+.utamaa .foto .quote{
+    height:auto;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+
+}
+.utamaa .foto .quote p{
+    margin: 5%;
+    font-style: italic;
+}
+
+
+.utamaa .penjelasan{
+    width: 30%;
+    background-color: #995e3a;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.utamaa .penjelasan p{
+    color: #0c0600e6;
+    align-items: center;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 0 0.5px brown;
+}
+.utamaa .penjelasan{
+    width: 30%;
+    background-color: #995e3a;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.utamaa .penjelasan .datsci{
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 10%; 
+   
+}
+
+.utamaa .penjelasan .datsci .fotodat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.utamaa .penjelasan .datsci .fotodat img {
+    height: 50px; 
+    width: 50px;
+    margin-bottom: 10px; 
+}
+
+.utamaa .penjelasan .expert {
+    width: 100%; 
+    box-sizing: border-box;
+    margin-left: 10%;
+}
+
+.utamaa .penjelasan .expert .fotoexp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    width: 80%; 
+    box-sizing: border-box;
+}
+
+
+.utamaa .penjelasan .expert .fotoexp p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: black;
+    margin-top: 1%;
+   
+}
+
+.utamaa .penjelasan .organisasi{
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 10%; 
+   
+}
+
+.utamaa .penjelasan .organisasi .fotorg {
+    display: flex;
+    flex-direction: row;
+    justify-content: left; 
+    flex-wrap: wrap; 
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.utamaa .penjelasan .organisasi .fotorg img {
+    height: 50px; 
+    width: auto;
+    margin-bottom: 10px; 
+    margin-right: 5%;
+}
+
+
